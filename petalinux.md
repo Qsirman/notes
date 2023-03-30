@@ -1,0 +1,3 @@
+# 优化编译
+1. sstate-cache默认从petalinux.xilinx.com下载，可提前下载然后在工程中设置本地sstate-cache位置即可，下载地址：https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html，共有四种：aarch64、arm、mb-full和mb-lite，分别对应三个平台：zynqmp、zynq、microblaze designs，按需下载，2018.3版本四个文件被打包在同一个文件夹里，需要全部下载后再解压分开。
+2. 更换sstate-cache为本地源，petalinux-config,Yocto Settings->Local sstate feeds settings->local sstate feeds url设置本地SState cache的目录。

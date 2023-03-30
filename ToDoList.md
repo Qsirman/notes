@@ -1,0 +1,10 @@
+- [ ] vmware配置ssh+rsa公钥无感远程办公
+- [ ] linux-irq分配机制，uart_add_one_port，irq_create_fwspec_mapping,printk
+- [x] petalinux编译太慢
+- [ ] xilinx-spi auto-ss,spi mosi “毛刺”疑似为cs拉高后mosi被拉高，cs拉低后mosi又迅速跟着拉低，给人一种有毛刺数据的假象，写入DelayRegister增加延时时间后验证并不是毛刺，为寄存器配置错误，两个word之间mosi不是恢复为默认状态，是强行被拉高
+- [x] libjpeg-turbo 编译和测试
+- [x] qt 设置icon，qmake：在.pro中添加 RC_ICONS = myappico.ico，添加后应用程序图标、快捷方式图标、桌面大型图标以及标题栏图标都会改变
+- [ ] 《深入linux内核架构》
+- [ ] qt-arm交叉编译生成动态链接库，添加c++等额外动态链接库，打包成img镜像，加载镜像，加载.so到系统路径
+- [x] pdf-xchange-editor 破解稳定版
+- [ ] win11 进入休眠
